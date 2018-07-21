@@ -27,4 +27,4 @@ libraryDependencies ++= Seq(
 )
 
 addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full)
-libraryDependencies += "com.lightbend.akka" %% "akka-stream-alpakka-cassandra" % "0.20"
+libraryDependencies += "com.datastax.cassandra" % "cassandra-driver-core" % "3.5.0"
