@@ -12,4 +12,4 @@ CREATE TABLE Events (
 ) WITH CLUSTERING ORDER BY (timestamp DESC);
 ```
 
-This project uses Http4s and Alpakka Cassandra connector.
+This project uses Http4s and Cassandra driver.
