@@ -2,7 +2,7 @@
 
 ## Table Definition
 
-```
+```sql
 CREATE TABLE Events ( 
   user_id uuid,
   timestamp timestamp,
